@@ -4,4 +4,4 @@
     - name: create file
       file: path=/home/rps/pull.txt state=touch
     - name: create user
-      user: name=gsha uid=1105 shell=/bin/bash
+      user: name=gsha uid=1105 shell=/bin/bash state=present
